@@ -1,7 +1,5 @@
 source "https://rubygems.org"
 
-# bundle exec jekyll serve
-
 gem "jekyll"
 gem "minimal-mistakes-jekyll"
 
