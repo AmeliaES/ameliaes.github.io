@@ -1,2 +1,9 @@
 source "https://rubygems.org"
-gemspec
+
+# bundle exec jekyll serve
+
+gem "jekyll"
+gem "minimal-mistakes-jekyll"
+
+group :jekyll_plugins  do
+end
