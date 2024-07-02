@@ -2,7 +2,7 @@
 title: "Cleaning real world data with SQL and R"
 date: 2024-07-02
 header:
-	teaser: "/assets/images/SQL-project_SQL_tables.png"
+    teaser: /assets/images/SAIL.png
 ---
 
 During my PhD I wanted to build up some more of my coding skills and learn SQL. I reached out to one of my colleagues, Dr Katie Marwick, who was planning to work with the SAIL Data Bank in Wales on an epidemiological project on post-partum psychosis (PPP), to offer help with the code.
