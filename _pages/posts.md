@@ -1,6 +1,6 @@
 ---
 permalink: /posts/
-title: "Posts"
+title: "Blog Posts"
 ---
 
 <div class="posts-grid">

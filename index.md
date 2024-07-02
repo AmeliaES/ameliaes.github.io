@@ -4,99 +4,45 @@ author_profile: true
 title: ""
 ---
 
-# Summary
+# About me
 PhD researcher at the University of Edinburgh using epidemiological and statistical methods for mental health research. Well developed in data cleaning and analysis, R, and statistical modelling.
 
-# My work (section in development)
-Click on the nodes below to find out more about a specific project or skill I'm developing. (In development - Portfolio is the only node I've assigned a URL to)
+# Main Projects
 
-*Insert legend here:*
+- **PhD Projects**
 
-* dashed lines = skill
-* grey background = to do
+During my PhD I worked on large, population datasets including UK Biobank, Generation Scotland and ALSPAC. One of my [projects](https://github.com/AmeliaES/ALSPAC_inflam_2022) investigating the associations between inflammatory markers in the blood and longitudinal outcomes of depression and psychotic like experiences is published in a scientific journal.
 
-<div id="network" style="width: 800px; height: 600px;"></div>
+<span style="color:#188db8">Skills: R, statistical analysis, high performance computing, project management</span>
 
-<style>
-  .dashed-border {
-    border: 2px dashed black; /* Adjust thickness and color of the dashed border */
-    border-radius: 50%; /* Ensures the border appears as a circle */
-  }
-</style>
+- **R Shiny application for statistical analysis**
 
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  // Define your network data
-  var nodes = new vis.DataSet([
-    {id: 'portfolio', label: 'Portfolio', url: '/portfolio'}, // Specify URL for Projects node
-    {id: 'phd', label: 'PhD'},
-    {id: 'other', label: 'Other'},
-    {id: 'inflamDepI', label: 'Inflamation in Depression I'}, 
-    {id: 'inflamDepII', label: 'Inflamation in Depression II'},
-    {id: 'TIDAL', label: 'TIDAL'},
-    {id: 'spotipy', label: 'spotify flask app'},
-    {id: 'car', label: 'cazzooScraper'},
-    {id: 'fitbit', label: 'fitbitR'},
-    {id: 'appDev', label: 'app development'},
-    {id: 'python', label: 'python'},
-    {id: 'R', label: 'R'},
-    {id: 'API', label: 'API', label: 'web scraping', color: {background: 'grey', border: 'black'}, shapeProperties: { borderDashes: [5,5]}},
-    {id: 'webScrape', label: 'web scraping', color: {background: 'grey', border: 'black'}, shapeProperties: { borderDashes: [5,5]}},
-    {id: 'dataVis', label: 'data vis'},
-    {id: 'dataClean', label: 'data cleaning'},
-    {id: 'stats', label: 'statistics'},
-    {id: 'HPC', label: 'high performance computing'}
-  ]);
+I took a 6-month secondment during my PhD to develop an [R Shiny app](https://github.com/TIDAL-modelling/TIDAL) to facilitate statistical trajectory analysis of longitudinal data. This was a project initiated led by Dr Alex Kwong, funded by the Wellcome Trust Data Prize, and included collaborations with the University of Bristol and King's College London. 
 
-  var edges = new vis.DataSet([
-    {from: 'portfolio', to: 'phd'},
-    {from: 'portfolio', to: 'other'},
-    {from: 'phd', to: 'inflamDepI'},
-    {from: 'phd', to: 'inflamDepII'},
-    {from: 'TIDAL', to: 'phd'},
-    {from: 'other', to: 'spotipy'},
-    {from: 'other', to: 'car'},
-    {from: 'other', to: 'fitbit'},
-    {from: 'other', to: 'appDev'},
-    {from: 'spotipy', to: 'python'},
-    {from: 'R', to: 'phd'},
-    {from: 'R', to: 'fitbitR'},
-    {from: 'R', to: 'car'},
-    {from: 'webScrape', to: 'car'},
-    {from: 'API', to: 'spotipy'},
-    {from: 'dataVis', to: 'phd'},
-    {from: 'stats', to: 'phd'},
-    {from: 'HPC', to: 'phd'},
-    {from: 'dataClean', to: 'phd'}
-  ]);
+<span style="color:#188db8">Skills: R Shiny, app-development, cloud hosting, project management</span>
 
-  // Create a network
-  var container = document.getElementById('network');
-  var data = {nodes: nodes, edges: edges};
-  var options = {
-    layout: {
-      randomSeed: 474132,
-      hierarchical: {
-        enabled: false,
-        direction: 'LR', // Set the layout direction: LR (left to right), RL (right to left), TB (top to bottom), BT (bottom to top)
-        sortMethod: 'directed' // Optionally, sort nodes by connections
-      }
-    },
-    interaction: {
-      //dragNodes: false // Disable node dragging
-    }
-  };
-  var network = new vis.Network(container, data, options);
+- **Data cleaning of electronic health records**
 
-  // Log the random seed to the console
-  console.log("Random Seed:", network.getSeed());
+I extracted and cleaned health data from the Welsh population (SAIL Data Bank) for a colleagues project. For more info see my blog post [here](SQL-project).
 
-  // Add event listener for clicking on nodes
-  network.on('click', function(event) {
-    var nodeClicked = nodes.get(event.nodes[0]);
-    if (nodeClicked && nodeClicked.url) {
-      window.location.href = nodeClicked.url;
-    }
-  });
-});
-</script>
+<span style="color:#188db8">Skills: SQL, R, working in a safe haven, project management</span>
+
+# Side Projects (for developing skills)
+
+- **Web scraper of autotrader website**
+
+Wanted to have a go at web scraping and improve my python skills. Spent a day playing around with web scraping using Selenium to scrape a car sales website and extract a spreadsheet to compare all the cars extracted from. More info on my GitHub repo [here](https://github.com/AmeliaES/cars).
+
+<span style="color:#188db8">Skills: web scraping, python, Selenium, data viz</span>
+
+- **Data visualisation of FitBit data**
+
+Was curious about the data stored on my FitBit, so had a go at downloading it and visualsing how many steps I do per season. Want to come back to this and look at some of the other data too. More info on my GitHub repo [here](https://github.com/AmeliaES/fitbitr).
+
+<span style="color:#188db8">Skills: R, data viz</span>
+
+# Helping others with code
+
+I also set up a coding club for our research group. Where we meet regularly in a friendly space to discuss any coding problems or share tips. Regular meetings resulted in a collection of useful resources for people in our group (especially new comers). More info is our GitHub repo [here](https://github.com/ccbs-stradl/coding_club).
+
+I also created some GitHub repositories for other researchers to help with code for commonly used methods in our field, eg. making [epigenetic scores](https://github.com/AmeliaES/grimAge_ALSPAC) and [querying UK Biobank data with SQL commands](https://github.com/AmeliaES/SQL_UKBiobank_duckDB).
