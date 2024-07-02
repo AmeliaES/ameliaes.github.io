@@ -8,32 +8,3 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-/* Custom styles */
-.posts-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px; /* Space between tiles */
-}
-
-.post-tile {
-  width: calc(33.333% - 16px); /* Adjust width based on the number of columns */
-  box-sizing: border-box;
-  border: 1px solid #ddd; /* Optional: Add border */
-  padding: 16px; /* Optional: Add padding */
-  text-align: left;
-}
-
-.post-tile img {
-  width: 100%;
-  height: auto;
-}
-
-.post-tile h2 {
-  font-size: 0.9rem;
-  margin: 8px 0 0;
-}
-
-.post-date, .post-reading-time {
-  font-size: 0.875rem;
-  color: #555;
-}
