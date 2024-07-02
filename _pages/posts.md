@@ -3,10 +3,15 @@ permalink: /posts/
 title: "Posts"
 ---
 
-<ul>
+<div class="posts-grid">
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+  <div class="post-tile">
+    <a href="{{ post.url | relative_url }}">
+      <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+      <h2>{{ post.title }}</h2>
+    </a>
+  </div>
   {% endfor %}
-</ul>
+</div>
+
+
