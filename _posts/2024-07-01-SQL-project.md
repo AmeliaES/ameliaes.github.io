@@ -56,11 +56,12 @@ Additionally, demographic data is selected based on the most relevant entry rela
 
 Below is an overview of the data cleaning pipeline, illustrating what the code is doing at each stage in each script.
 
-*insert image here when exported out of SAIL*
+![/assets/images/SQL-project_Slide1.png](/assets/images/SQL-project_Slide1.png)
+![/assets/images/SQL-project_Slide2.png](/assets/images/SQL-project_Slide2.png)
 
 ## Code availability
 
-The scripts illustrated in the figure above are available on my GitHub: *insert here when exported out of SAIL* .
+The scripts illustrated in the figure above are available on my GitHub: [https://github.com/AmeliaES/SAIL](https://github.com/AmeliaES/SAIL)
 
 ## Reflections on cleaning real world data
 
