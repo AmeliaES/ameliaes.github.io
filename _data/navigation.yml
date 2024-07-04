@@ -1,8 +1,8 @@
 # main links
 main:
-  # - title: "About"
-  #   url: /about/
-  # - title: "Portfolio"
-  #   url: /portfolio/
+  - title: "Projects"
+    url: /projects/
+  # - title: "Curiosities"
+  #   url: /curiosities/
   - title: "Posts"
     url: /posts/
