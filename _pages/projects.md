@@ -19,7 +19,7 @@ I took a 6-month secondment during my PhD to develop an [R Shiny app](https://gi
 
 - **Data cleaning of electronic health records**
 
-I extracted and cleaned health data from the Welsh population (SAIL Data Bank) for a colleagues project. For more info see my blog post [here]({% SQL-project 2024-07-01-SQL-project %}).
+I extracted and cleaned health data from the Welsh population (SAIL Data Bank) for a colleagues project. For more info see my blog post [here]({{ site.baseurl }}{% post_url 2024-07-01-SQL-project %}).
 
 <span style="color:#188db8">Skills: SQL, R, working in a safe haven, project management</span>
 
