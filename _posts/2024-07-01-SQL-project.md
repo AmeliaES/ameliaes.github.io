@@ -73,6 +73,8 @@ Additionally, when there are multiple births per delivery (eg. twins) data relat
 
 Overall it's been a really enjoyable challenge to work on real world, messy, health data and develop my SQL skills. 
 
+If you would like to know more about this project or are interested in collaborating please get in touch with either myself (contact details in side panel) or [Dr Katie Marwick](https://www.ed.ac.uk/profile/dr-katie-marwick).
+
 ## Acknowledgements
 - [Dr Katie Marwick](https://www.ed.ac.uk/profile/dr-katie-marwick) (Project Lead).
 - Collaborators: [Dr Caroline Jackson](https://www.ed.ac.uk/profile/caroline-jackson) and colleagues at [The Usher Institute (Edinburgh, UK)](https://www.ed.ac.uk/usher/).
