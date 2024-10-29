@@ -1,3 +1,3 @@
 # Personal website to showcase my portfolio
-In development, only just started building this.
+Please see [ameliaes.github.io](ameliaes.github.io_
 
