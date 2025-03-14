@@ -25,6 +25,24 @@ I extracted and cleaned health data from the Welsh population (SAIL Data Bank) f
 
 ## Example side projects (for developing skills)
 
+-**Testing and R package development**
+
+I've recently been learning about software testing. With this in mind I've made sure to implement tests in an [R package I've been developing](https://github.com/AmeliaES/susiexR). This is work in progress but I'm enjoying the creativity involved in testing and writing unit tests. My priority now is to implement tests in older projects below.
+
+<span style="color:#188db8">Skills: unit tests (R testthat and codecov), automated tests/GitHub actions/Continuous Integration</span>
+
+-**My first PHP/MySQL CRUD (Create, Read, Update, Delete) application**
+
+In this mini project I combined my PHP and MySQL skills to build a simple application on a local Apache server. More details can be found on my GitHub repo [here](https://github.com/AmeliaES/eCommerce-admin-panel).
+
+<span style="color:#188db8">Skills: PHP, MySQL, Apache, web server</span>
+
+-**My first raspberry pi project, connecting to Lothian Bus API and displaying when the next bus is on a raspberry pi**
+
+I recently bought my first raspberry pi, and am absolutely hooked by all the cool projects people have made using them. I love how easy it is to combine hardware with software. For my first project I have kept it simple resttricting myself to only buying a small LCD screen from the pi shop. The LCD screen displays when the next bus departs from my local bus stop. I have a cron job run a Python script every minute of every day. This Python script uses the Edinburgh Lothian Bus API to fetch real time live bus data. Read more about it and see the code on my [GitHub repo](https://github.com/AmeliaES/raspberry-pi-bus-tracker).
+
+<span style="color:#188db8">Skills: Python, API, Raspberry Pi</span>
+
 - **Web scraper of autotrader website**
 
 Wanted to have a go at web scraping and improve my python skills. Spent a day playing around with web scraping using Selenium to scrape a car sales website and extract a spreadsheet to compare all the cars extracted from. More info on my GitHub repo [here](https://github.com/AmeliaES/cars).
