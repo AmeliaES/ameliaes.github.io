@@ -17,7 +17,7 @@ Coding in isolation like this often means it can be whole scripts that need revi
 
 The main point I wanted to stress is reviewing the code is more important than the tools used to review. Therefore, the practical part of this workshop focused less on the tools used for reviewing, such as how to do a pull request, and instead focused on the contents of a good quality review. This involved pairing up and reviewing two different code scripts in either R or Python. Attendees had a suggested checklist, discussed in the introductory presentation, as a starting point of things to look for when reviewing code. They spent 15 minutes to review each script, and after each review we spent 10 minutes on a whole-room discussion, sharing what each group had found.
 
-We used [“padlet”](https://padlet.com/edmondsonstaita/code-review-in-academia-workshop) to keep track of discussions throughout the workshop. This is an online whiteboard for people to post comments, questions and resources in one place. This meant there was a place for people to post their comments/questions as an alternative to speaking out in front of everyone. 
+We used [“padlet”](https://padlet.com/edmondsonstaita/code-review-in-academia-workshop-ymihytjxa6jollw2) to keep track of discussions throughout the workshop. This is an online whiteboard for people to post comments, questions and resources in one place. This meant there was a place for people to post their comments/questions as an alternative to speaking out in front of everyone. 
 
 |![Screenshot of the padlet showing discussions from one of the code review exercises.](/assets/images/code-review_padlet.png)|
 |:--:| 
