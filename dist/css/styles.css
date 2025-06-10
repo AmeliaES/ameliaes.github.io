@@ -11049,6 +11049,9 @@ img {
      object-fit: cover;
 }
 
+#portfolio {
+  padding-top: 1rem;
+}
 #portfolio .portfolio-item {
   max-width: 26rem;
   margin-left: auto;
