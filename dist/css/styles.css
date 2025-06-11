@@ -11050,7 +11050,10 @@ img {
 }
 
 #portfolio {
-  padding-top: 1rem;
+  padding-top: 2rem;
+}
+#portfolio .section-subheading {
+  margin-bottom: 2rem;
 }
 #portfolio .portfolio-item {
   max-width: 26rem;
@@ -11304,6 +11307,7 @@ img {
   }
 }
 section#contact {
+  padding-top: 2rem;
   background-color: #212529;
   background-image: url("../assets/img/map-image.png");
   background-repeat: no-repeat;

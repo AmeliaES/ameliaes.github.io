@@ -3,7 +3,11 @@
 //
 
 #portfolio {
-    padding-top: 1rem;
+    padding-top: 2rem;
+
+    .section-subheading {
+        margin-bottom: 2rem; // or 0 if you want to remove all space
+    }
 
     .portfolio-item {
         max-width: 26rem;
