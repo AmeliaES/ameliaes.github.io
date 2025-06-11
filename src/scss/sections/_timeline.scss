@@ -18,7 +18,7 @@
         background-color: $gray-200;
     }
 
-    >li {
+    > li {
         position: relative;
         min-height: 50px;
         margin-bottom: 50px;
@@ -65,8 +65,18 @@
             text-align: center;
             color: white;
             border: 7px solid $gray-200;
-            border-radius: 100%;
+            border-radius: 50%;
             background-color: $primary;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
 
             h4 {
                 font-size: 10px;
@@ -75,7 +85,7 @@
             }
         }
 
-        &.timeline-inverted>.timeline-panel {
+        &.timeline-inverted > .timeline-panel {
             float: right;
             padding: 0 20px 0 100px;
             text-align: left;
@@ -112,9 +122,8 @@
     }
 
     .timeline-body {
-
-        >ul,
-        >p {
+        > ul,
+        > p {
             margin-bottom: 0;
         }
     }
@@ -126,9 +135,9 @@
             left: 50%;
         }
 
-        >li {
+        > li {
             min-height: 100px;
-            margin-bottom: 100px;
+            margin-bottom: 30px;
 
             .timeline-panel {
                 float: left;
@@ -150,7 +159,7 @@
                 }
             }
 
-            &.timeline-inverted>.timeline-panel {
+            &.timeline-inverted > .timeline-panel {
                 float: right;
                 padding: 0 30px 20px 20px;
                 text-align: left;
@@ -161,7 +170,7 @@
 
 @include media-breakpoint-up(lg) {
     .timeline {
-        >li {
+        > li {
             min-height: 150px;
 
             .timeline-panel {
@@ -180,7 +189,7 @@
                 }
             }
 
-            &.timeline-inverted>.timeline-panel {
+            &.timeline-inverted > .timeline-panel {
                 padding: 0 20px 20px;
             }
         }
@@ -189,7 +198,7 @@
 
 @include media-breakpoint-up(xl) {
     .timeline {
-        >li {
+        > li {
             min-height: 170px;
 
             .timeline-panel {
@@ -206,7 +215,7 @@
                 }
             }
 
-            &.timeline-inverted>.timeline-panel {
+            &.timeline-inverted > .timeline-panel {
                 padding: 0 100px 20px 20px;
             }
         }
