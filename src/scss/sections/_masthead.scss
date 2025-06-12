@@ -52,6 +52,21 @@ header.masthead {
     }
 }
 
+#typewriter-wrapper {
+    display: inline-block;
+    width: 100%;
+    max-width: 100%;
+    min-height: 3em; /* Reserve 2 lines of height so the screen doesn't jump up and down*/
+    text-align: center;
+}
+
+#typewriter {
+    display: inline;
+    white-space: normal;
+    word-break: break-word;
+    text-align: center;
+}
+
 #typewriter::after {
     content: "|";
     animation: blink 1s step-start infinite;
@@ -68,6 +83,17 @@ header.masthead {
         opacity: 0;
     }
 }
+
+/* Only for small screens do we want to keep 2 lines of space*/
+@media (min-width: 768px) {
+    #typewriter-wrapper {
+        min-height: auto;
+    }
+    #typewriter {
+        white-space: nowrap;
+    }
+}
+
 .flip-card {
     perspective: 1000px;
     width: 200px;

@@ -13,7 +13,6 @@
                             p.item-skills
                                 strong Skills:
                                 | Python, Linux
-                            img.img-fluid.d-block.mx-auto(src='assets/img/portfolio/rpi.jpeg', alt='...')
                             p I recently discovered some really cool projects people had made using raspberry pi's and wanted to have a go at this myself. I wanted to create something that would be useful for me and decided on a simple LCD screen that could display the time my next local bus was departing. I also added a message to say when to leave, to walk quickly or to run depending on how many minutes there were until the next bus. If the bus was less than a certain number of minutes away then I would miss it if I left the house at that time, so instead it shows the next available bus I could get.
                             p(style="padding-bottom: 1rem;")
                                 strong Data from the Lothian Bus API is fetched, wrangled and output to the LCD screen using a Python script that is scheduled to run every minute in a cron job on the Raspberry Pi.

@@ -57,7 +57,8 @@ html(lang='en')
                     .row.mt-3
                     .col-lg-10.mx-auto
                         h2
-                            span#typewriter
+                            span#typewriter-wrapper
+                                span#typewriter
                         
                         h6(style="color:rgb(49, 62, 26);") neuroscientist by training
                         h6(style="color:rgb(49, 62, 26);") solving problems with data and code
@@ -148,7 +149,7 @@ html(lang='en')
                                         i.fas.fa-plus.fa-3x
                                 video(autoplay loop muted playsinline)
                                     source(src='assets/img/portfolio/calc.mp4', type='video/mp4')
-                                    img.img-fluid(src='assets/img/portfolio/calc.jpg', alt='Fallback image')
+                                    img.img-fluid(src='assets/img/portfolio/calc.png', alt='Fallback image')
                             .portfolio-caption
                                 .portfolio-caption-heading JavaScript Calculator
                                 .portfolio-caption-subheading Vanilla JS, Cypress E2E Testing
@@ -165,7 +166,7 @@ html(lang='en')
                                 .portfolio-hover
                                     .portfolio-hover-content
                                         i.fas.fa-plus.fa-3x
-                                img.img-fluid(src='assets/img/portfolio/rpi.jpeg', alt='...')
+                                img.img-fluid#rotating-image(src='assets/img/portfolio/rpi1.jpeg', alt='...')
                             .portfolio-caption
                                 .portfolio-caption-heading Bus Tracker Display Screen
                                 .portfolio-caption-subheading Raspberry Pi, Python
@@ -319,7 +320,6 @@ html(lang='en')
                         p(style='padding: 0 1rem;')
                             a.btn.btn-primary.btn-social.me-2(href='mailto:amelia1024k@gmail.com', target='_blank')
                                 i.fa.fa-envelope
-                            | Email me at 
                             a(href='mailto:amelia1024k@gmail.com', target='_blank')
                                 | amelia1024k@gmail.com
                         p(style='padding: 0 1rem;')
@@ -363,9 +363,3 @@ html(lang='en')
         // Core theme JS
         script(src='js/scripts.js')
 
-        // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-        // * *                               SB Forms JS                               * *
-        // * * Activate your form at https://startbootstrap.com/solution/contact-forms * *
-        // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-
-        script(src='https://cdn.startbootstrap.com/sb-forms-latest.js')

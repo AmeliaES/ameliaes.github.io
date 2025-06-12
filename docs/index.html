@@ -49,7 +49,9 @@
                     </div>
                     <div class="row mt-3"></div>
                     <div class="col-lg-10 mx-auto">
-                        <h2><span id="typewriter"></span></h2>
+                        <h2>
+                            <span id="typewriter-wrapper"><span id="typewriter"></span></span>
+                        </h2>
                         <h6 style="color: rgb(49, 62, 26)">neuroscientist by training</h6>
                         <h6 style="color: rgb(49, 62, 26)">solving problems with data and code</h6>
                         <div class="mt-4"></div>
@@ -161,7 +163,7 @@
                                 </div>
                                 <video autoplay loop muted playsinline>
                                     <source src="assets/img/portfolio/calc.mp4" type="video/mp4" />
-                                    <img class="img-fluid" src="assets/img/portfolio/calc.jpg" alt="Fallback image" />
+                                    <img class="img-fluid" src="assets/img/portfolio/calc.png" alt="Fallback image" />
                                 </video>
                             </a>
                             <div class="portfolio-caption">
@@ -185,7 +187,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/rpi.jpeg" alt="..." />
+                                <img class="img-fluid" id="rotating-image" src="assets/img/portfolio/rpi1.jpeg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Bus Tracker Display Screen</div>
@@ -375,7 +377,6 @@
                     <div class="col-12 col-md-8 col-lg-5">
                         <p style="padding: 0 1rem">
                             <a class="btn btn-primary btn-social me-2" href="mailto:amelia1024k@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
-                            Email me at
                             <a href="mailto:amelia1024k@gmail.com" target="_blank">amelia1024k@gmail.com</a>
                         </p>
                         <p style="padding: 0 1rem">
@@ -416,7 +417,6 @@
                                         <strong>Skills:</strong>
                                         R, R Shiny, Cloud Server Management
                                     </p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/tidal.png" alt="..." />
                                     <p style="padding-bottom: 1rem">During my PhD I undertook at 6-month secondment to develop an R Shiny application. R Shiny is an R package for building interactive web apps straight from R.</p>
                                     <p style="padding-bottom: 1rem">This tool helps with data wrangling, analysing, visualising and interpreting growth curve model data. The aim is to remove barriers to implementing longitudinal research to researchers without specialist statistical or coding backgrounds.</p>
                                     <a class="btn btn-primary" href="https://github.com/TIDAL-modelling/TIDAL" target="_blank">
@@ -457,7 +457,6 @@
                                         <strong>Skills:</strong>
                                         Python, Dash, Data Visualisation
                                     </p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/spotify.png" alt="..." />
                                     <p>After learning about interactive apps in R I wanted to learn how to do this in Python in my spare time. I downloaded my Spotify streaming history and made a dashboard to visualise some statistics of number of songs played per month and top artists listened to given a date range from the slider.</p>
                                     <a class="btn btn-primary" href="https://github.com/AmeliaES/spotify_dashboard" target="_blank">
                                         <i class="fa fa-code"></i>
@@ -493,7 +492,6 @@
                                         <strong>Skills:</strong>
                                         SQL, PHP, JavaScript, E2E testing (Cypress), Apache, XAMPP
                                     </p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/ecommerce.png" alt="..." />
                                     <p style="padding-bottom: 1rem">To develop my full stack web development skills I made a pretend eCommerce website. This was coursework for a Coding Bootcamp I undertook at Edinburgh College. The brief included creating registration and login pages, a products page that was only accessible once logging in and a working shopping cart. I also set up E2E using Cypress for the registration page. I learnt about how to protect against SQL injection and went beyond the course material to look into good practices for web security, including PHP functions for salting and hashing passwords.</p>
                                     <a class="btn btn-primary" href="https://github.com/AmeliaES/CodeSpace-Portfolio" target="_blank">
                                         <i class="fa fa-code"></i>
@@ -529,7 +527,6 @@
                                         <strong>Skills:</strong>
                                         JavaScript, E2E Testing (Cypress), GitHub Actions
                                     </p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/calc.png" alt="..." />
                                     <p>To improve my JavaScript and testing skills I created a simple calculator:</p>
                                     <ol>
                                         <li>I sketched out on paper what I wanted it to look like.</li>
@@ -575,7 +572,6 @@
                                         <strong>Skills:</strong>
                                         Python, Linux
                                     </p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/rpi.jpeg" alt="..." />
                                     <p>I recently discovered some really cool projects people had made using raspberry pi's and wanted to have a go at this myself. I wanted to create something that would be useful for me and decided on a simple LCD screen that could display the time my next local bus was departing. I also added a message to say when to leave, to walk quickly or to run depending on how many minutes there were until the next bus. If the bus was less than a certain number of minutes away then I would miss it if I left the house at that time, so instead it shows the next available bus I could get.</p>
                                     <p style="padding-bottom: 1rem"><strong>Data from the Lothian Bus API is fetched, wrangled and output to the LCD screen using a Python script that is scheduled to run every minute in a cron job on the Raspberry Pi.</strong></p>
                                     <a class="btn btn-primary" href="https://github.com/AmeliaES/raspberry-pi-bus-tracker" target="_blank">
@@ -608,7 +604,6 @@
                                         <strong>Skills:</strong>
                                         SQL, R
                                     </p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/sql.png" alt="..." />
                                     <p>During my PhD I wanted to build up some more of my coding skills and learn SQL. I reached out to one of my colleagues, Dr Katie Marwick, who was planning to work with the SAIL Data Bank (NHS data on the entire Welsh population) on an epidemiological project on post-partum psychosis, to offer help with the code.</p>
                                     <p style="padding-bottom: 1rem">This has been a really rewarding experience. I’ve built up my skills in SQL writing complex queries for data with millions of rows, worked inside a Trusted Research Environment (a secure remote desktop where the data is held) and problem solved how to approach and clean many tricky nuances of real world data. Please see the GitHub repo for the SQL code and a schematic diagram illustrating the data cleaning steps.</p>
                                     <a class="btn btn-primary" href="https://github.com/AmeliaES/SAIL" target="_blank">
@@ -744,10 +739,5 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>
