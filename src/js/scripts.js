@@ -95,3 +95,21 @@ function type() {
 document.addEventListener("DOMContentLoaded", () => {
     if (words.length) setTimeout(type, 500);
 });
+
+// Loop through rpi images
+const images = [
+    "assets/img/portfolio/rpi1.jpeg",
+    "assets/img/portfolio/rpi2.jpeg",
+    "assets/img/portfolio/rpi3.jpeg",
+    "assets/img/portfolio/rpi4.jpeg",
+    "assets/img/portfolio/rpi5.jpeg",
+    "assets/img/portfolio/rpi6.jpeg",
+];
+
+let currentIndex = 0;
+const imgElement = document.getElementById("rotating-image");
+
+setInterval(() => {
+    currentIndex = (currentIndex + 1) % images.length;
+    imgElement.src = images[currentIndex];
+}, 1000);
