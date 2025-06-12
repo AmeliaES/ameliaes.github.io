@@ -2844,7 +2844,7 @@ textarea.form-control-lg {
   opacity: var(--bs-btn-disabled-opacity);
 }
 
-.btn-primary {
+.btn-primary, .btn-primary-custom {
   --bs-btn-color: #fff;
   --bs-btn-bg: #0783a0;
   --bs-btn-border-color: #0783a0;
@@ -2997,7 +2997,7 @@ textarea.form-control-lg {
   --bs-gradient: none;
 }
 
-.btn-outline-secondary {
+.btn-outline-secondary, .btn-outline-secondary-custom {
   --bs-btn-color: #6c757d;
   --bs-btn-border-color: #6c757d;
   --bs-btn-hover-color: #fff;
@@ -10874,6 +10874,14 @@ p {
   justify-content: center;
   padding: 0;
   border-radius: 100%;
+}
+
+.btn-primary-custom {
+  margin-bottom: 0.3rem;
+}
+
+.btn-outline-secondary-custom {
+  margin-bottom: 0.3rem;
 }
 
 #mainNav {

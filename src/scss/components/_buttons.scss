@@ -22,3 +22,13 @@
     padding: 0;
     border-radius: 100%;
 }
+
+.btn-primary-custom {
+    @extend .btn-primary;
+    margin-bottom: 0.3rem;
+}
+
+.btn-outline-secondary-custom {
+    @extend .btn-outline-secondary;
+    margin-bottom: 0.3rem;
+}
