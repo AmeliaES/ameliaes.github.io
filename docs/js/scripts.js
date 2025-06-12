@@ -50,10 +50,13 @@ window.addEventListener("DOMContentLoaded", (event) => {
     });
 });
 
+// -------------------------------
+// Typewriter effect
+
 const words = [
     "Post-Doctoral Researcher",
     "Aspiring Software Developer",
-    "Aspiring Tester",
+    "Aspiring Software Tester",
 ];
 
 const typewriterElement = document.getElementById("typewriter");
@@ -101,6 +104,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (words.length) setTimeout(type, 500);
 });
 
+// -------------------------------
 // Loop through rpi images
 const images = [
     "assets/img/portfolio/rpi1.jpeg",
