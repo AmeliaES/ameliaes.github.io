@@ -28,6 +28,7 @@ fs.readdirSync(postsDir).forEach((file) => {
             title: data.title || file.replace(".md", ""),
             date: data.date || "",
             content: htmlContent,
+            currentYear: new Date().getFullYear(),
         });
 
         // Write to root docs folder as .html

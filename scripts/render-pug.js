@@ -16,6 +16,7 @@ module.exports = function renderPug(filePath) {
         doctype: "html",
         filename: filePath,
         basedir: srcPath,
+        currentYear: new Date().getFullYear(),
     });
 
     const destPathDirname = upath.dirname(destPath);
